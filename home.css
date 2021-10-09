@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+	height: 100%; 
+	margin: 0;
+	background-color: #5cdb95;
+	color: #05386b;
+	font-family: "Lucida Console", "Courier New", monospace;
+	overflow-x: hidden;
+	
+}
+
+#profilepic{
+	margin: 2%;
+	width: 30%;
+	height: 30%;
+	border-radius: 100%;
+	float: left;
+
+}
+
+
+
+
+#home{
+	background-image: url("./img/csbg.jpg");
+}
+
+.text{
+	padding: 2%;
+}
+
+.text p{
+	background-color: rgba(f, f, f, 0.5);
+
+}
+
+
+.navbar{
+	}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #5cdb95;
+
+
+}
+
+.navbar li{
+  	padding: 0;
+  	padding: 1%;
+
+}
+
+.navbar li a {
+  display: block;
+  color: #05386b;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.navbar li:hover {
+	
+	animation-name: example;
+  	animation-duration: 0.5s;
+}
+
+@keyframes example {
+  from {}
+  to {border-bottom: #05386b solid;}
+}
