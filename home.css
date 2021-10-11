@@ -16,6 +16,21 @@ body{
 	font-family: "Lucida Console", "Courier New", monospace;
 }
 
+#home{
+  background-image: url("./img/homebg.png");
+
+  /* Add the blur effect */
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+
 img{
   max-width: 100%;
   border-radius: 100%;
@@ -23,7 +38,7 @@ img{
 
 
 .bottom{
-  background-color:#05386b ;
+  background-color:#152238 ;
 }
 
 .footer{
@@ -55,29 +70,40 @@ img{
 }
 
 .table2{
-  border-collapse: collapse;
   margin: 1em;  
-  border: solid #05386b;
 }
 
 .bottom-right{
-  border-right: solid #05386b;
-  border-bottom: solid #05386b;
+  border: none;
 }
 
 .bottom-left{
-  border-left: solid #05386b;
-  border-bottom: solid #05386b;
+  border: solid #05386b;
+  border-radius: 5px;
 }
 
 #about{
-  background-color: #379683;
+  background-image: url("./img/black.jpg");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
   padding: 2em;
   color: white;
 }
 
 #academic{
-  background-color: #EDF5E1;
+  background-image: url("./img/white.jpg");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
   padding: 2em;
 }
 
@@ -98,6 +124,9 @@ img{
 
 td{
   padding: 1em;
+}
+.bottom-left:hover{
+  background-color: white;
 }
 
 .wrapper{
