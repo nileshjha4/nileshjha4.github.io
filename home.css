@@ -16,21 +16,6 @@ body{
 	font-family: "Lucida Console", "Courier New", monospace;
 }
 
-#home{
-  background-image: url("./img/homebg.png");
-
-  /* Add the blur effect */
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
-
 img{
   max-width: 100%;
   border-radius: 100%;
