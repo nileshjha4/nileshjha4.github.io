@@ -9,7 +9,7 @@ All Cascade styling in `home.css`.
 Javascript in `script.js`
 Images are stored in `img` folder.  
 #### 2)
-Multiple images viz. profile, github, linkedin etc are used at different locations.
+Multiple images viz. profile, backgrounds, github, linkedin etc are used at different locations.
 Hyperlinks to professional social media handles are also addes at appropriate locations. 
 #### 3)
 Two tables are used in `Academic` & `Projects` tab. Former table uses `colspan` to merge two colums of heading.
